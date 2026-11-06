@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #ffcccc;
+    background-color:#e4dde3;
     color: #333;
 }
 
 /* ENCABEZADO */
 header {
-    background-color: plum;
+    background-color: #D7C1DB;
     color: black;
     text-align: center;
     padding: 20px;
@@ -15,7 +15,7 @@ header {
 
 /* MENÚ */
 nav {
-    background-color: #c184aa;
+    background-color:#af6f6f;
     padding: 10px;
 }
 nav ul {
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .bienvenida h2 {
-    color: purple;
+    color: rgb(173, 151, 190);
 }
 
 .bienvenida p {
@@ -58,7 +58,7 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: purple;
+    background-color: rgb(165, 129, 185);
     color: white;
     text-align: center;
     padding: 15px;
