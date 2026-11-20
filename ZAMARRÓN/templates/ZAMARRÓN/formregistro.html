@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÁGINA PERLA</title>
+
+    <link rel="stylesheet" href="{% static 'ZAMARRÓN/estilos.css' %}">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>PERLA ANELI ZAMARRÓN ORTIZ</h1>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="registro">REGISTRO/a></li>
+                <li><a href="#">dos</a></li>
+                <li><a href="#">tres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form method="POST">
+        <label>Nombre:</label>
+        </label><input type="text" name="Nombre" placeholder="Escribe tu nombre.">
+        <label>Apellido paterno</label>
+        <input type="text" name="Apellido Paterno" placeholder="Escribe tu Apellido."required>
+        <label>Apellido materno</label>
+        <input type="text" name="Apellido materno" placeholder="Escribe tu Apellido.">
+        <label>Edad:</label>
+        <input type="number" name="Edad" min="14" max="25" required>
+    </form>
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Creado por Perla Zamarrón.</p>
+    </footer>
+
+</body>
+</html>
