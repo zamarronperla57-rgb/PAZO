@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PÁGINA PERLA</title>
+
+    <link rel="stylesheet" href="{% static 'ZAMARRÓN/estilos.css' %}">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>PERLA ANELI ZAMARRÓN ORTIZ</h1>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="registro">REGISTRO/a></li>
+                <li><a href="Baile">BAILE</a></li>
+                <li><a href="#">tres</a></li>
+            </ul>
+        </nav>
+    </header>
+  <form method="POST"></form>
+  <label>¿Te gusta bailar?</label>
+  <input type="checkbox" name="¿Te gusta bailar?" value="Si" required>Si
+  <input type="checkbox" name="¿Te gusta bailar?" value="No" required>No
+  <input type="checkbox" name="¿Te gusta bailar?" value="Algunas veces" required>Algunas veces<br>
+  <label>¿Consideras que sabes bailar?</label>
+  <input type="radio" name="¿Consideras que sabes bailar?" placeholder="Si">Si
+  <input type="radio" name="¿Consideras que sabes bailar?" placeholder="No">No<br>
+  <label>¿Te gustaría formar parte de algún grupo o academia de Baile?</label>
+  <input type="text" name="¿Te gustaría formar parte de algún grupo o academia de Baile?" placeholder="Si/No"><br>
+  <label>¿Qué tipos de baile te gustan?</label>
+  <input type="checkbox" name="¿Qué tipos de baile te gustan?" value="cumbia">cumbia
+  <input type="checkbox" name="¿Qué tipos de baile te gustan?" value="Vals/Tango">Vals/Tango
+  <input type="checkbox" name="¿Qué tipos de baile te gustan?" value="Salsa/Bachata">Salsa/Bachata
+  <input type="checkbox" name="¿Qué tipos de baile te gustan?" value="hip-hop/breakdance">hip-hop/breakdance
+  <input type="checkbox" name="¿Qué tipos de baile te gustan?" value="ballet/contemporáneo">ballet/contemporáneo
+  <input type="checkbox" name="¿Qué tipos de baile te gustan?" value="flamenco/jota">flamenco/jota<br>
+  <label>De las opciones anteriores, ¿Cuáles clases quisieras tomar?</label>
+  <input type="text" name="De las opciones anteriores, ¿Cuáles clases quisieras tomar?" placeholder="Respuesta" required><br>
+  <label>¿Por qué quieres tomar esta clase(s)?</label>
+  <input type="textarea" name="¿Por qué quieres tomar estas clase(s)?" placeholder="¿Por qué?" required><br>
+  <label>Si te quieres anotar, déjanos tu correo email.</label>
+  <input type="text" name="Si te quieres anotar, déjanos tu correo email" placeholder="Email" required><br>
+  <label>¿Qué edad tienes?</label>
+  <input type="number" name="¿Qué edad tienes?" min="7" max="65" placeholder="Selecciona tu edad" required><br>
+  <label>¿En qué fecha te gustaría empezar tus clases?</label>
+  <input type="date" name="¿En qué fecha te gustaría empezar tus clases?" placeholder="Escribe la fecha"
+

@@ -65,7 +65,7 @@ footer {
 }
 form{
     background-color:#c184aa;
-    width: 350px;
+    width: 75px;
     margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
@@ -75,7 +75,7 @@ input, select, textarea{
     padding: 8px;
     margin:8px 0;
     box-sizing: border-box;
-    background-color: #ffcccc;
+    background-color: #fff0f0;
 }
 button{
     background-color: peachpuff;
